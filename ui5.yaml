@@ -3,12 +3,16 @@ metadata:
   name: ui5.typescript.helloworld
 type: application
 framework:
-  name: OpenUI5
-  version: "1.112.0"
+  name: SAPUI5
+  version: "1.115.1"
   libraries:
     - name: sap.m
+    - name: sap.ui.comp
     - name: sap.ui.core
+    - name: sap.ui.table
     - name: sap.ui.unified
+    - name: sap.ui.ux3
+    - name: sap.uxap
     - name: themelib_sap_horizon
 builder:
   customTasks:
